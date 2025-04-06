@@ -1,0 +1,15 @@
+services:
+  server1:
+    build: .
+    ports:
+      - "50051:50051"
+  
+  server2:
+    build: .
+    ports:
+      - "50052:50051"
+  
+  server3:
+    build: .
+    ports:
+      - "50053:50051"
